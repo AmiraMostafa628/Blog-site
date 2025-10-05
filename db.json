@@ -1,0 +1,255 @@
+{
+  "users": [
+    {
+      "email": "amira@gmail.com",
+      "password": "$2a$10$jvcEKRaAqyTgExfW9XBHxeAFwvR1TyKBBYFULydYC5aTyz.PiVVhO",
+      "name": "Amira Mostafa",
+      "profile": "/assets/1.jpg",
+      "background": "/assets/b4.jpg",
+      "id": 1
+    },
+    {
+      "email": "alaa@gmail.com",
+      "password": "$2a$10$AOpAv9Ic9oA6GriuUfU/GeKiuAhfJfnpoAfcNIA76ZQW/XQPJM2mO",
+      "name": "Alaa Mostafa",
+      "profile": "/assets/2.jpg",
+      "background": "/assets/b1.jpg",
+      "id": 2
+    },
+    {
+      "email": "mariam@gmail.com",
+      "password": "$2a$10$09pKNPXpyp0xGsBAtw3K/OmXuXGq1sOyBhCq7l3Q3P/zKCwyAPY6a",
+      "name": "Mariam Mohamed",
+      "profile": "/assets/3.jpg",
+      "background": "/assets/b2.jpg",
+      "id": 3
+    },
+    {
+      "email": "farida@gmail.com",
+      "password": "$2a$10$hAutLOKMPM/r/vbnlNHo7eJCAVk5xRfuXbgKLgKtmmlxmWBLi.8Ay",
+      "name": "Farida Kareem",
+      "profile": "/assets/6.jpeg",
+      "background": "/assets/b3.jpg",
+      "id": 4
+    },
+    {
+      "email": "malk@gmail.com",
+      "password": "$2a$10$1MqhQniW6Lhdh1wwkjoowuW55hMWG.zuwK8Uwfa78UQjfpklq/kr2",
+      "name": "Malk Mostafa",
+      "profile": "/assets/5.jpg",
+      "background": "/assets/b4.jpg",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "10 Sep - 11:10 am",
+      "likes": 43,
+      "comments": 6,
+      "content": "Be proud of yourself for how hard you are trying.",
+      "likedBy": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "date": "11 Sep - 3:10 pm",
+      "likes": 36,
+      "comments": 4,
+      "content": "Today I refactored my modal logic into a shared component. It feels so clean now!",
+      "likedBy": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "date": "11 Sep - 8:30 pm",
+      "likes": 37,
+      "comments": 4,
+      "content": "Sunrise ❤",
+      "img": "/assets/p1.jpg",
+      "likedBy": [
+        2,
+        4,
+        5,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "date": "5 Oct - 2:51 PM",
+      "likes": 28,
+      "comments": 3,
+      "content": "Every small improvement in your code is a big step toward scalability.",
+      "likedBy": [
+        2,
+        3,
+        5,
+        1
+      ],
+      "img": null
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "date": "13 Sep",
+      "likes": 18,
+      "comments": 2,
+      "content": "React is starting to make sense. Components are like building blocks!",
+      "likedBy": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "date": "14 Sep - 2:30 pm",
+      "likes": 21,
+      "comments": 5,
+      "content": "I built a login page with animated transitions. It looks smooth and modern.",
+      "likedBy": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "date": "15 Sep - 3:15 PM",
+      "likes": 15,
+      "comments": 1,
+      "content": "Tailwind CSS is a game changer. Styling feels intuitive now.",
+      "likedBy": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "userId": 5,
+      "date": "1 Oct - 1:00 PM",
+      "likes": 21,
+      "comments": 3,
+      "content": "Working on a product listing page with filters and categories. Loving the challenge!",
+      "likedBy": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "userId": 1,
+      "content": "winter🍩❤️",
+      "img": "https://i.ibb.co/WW8ZKqXd/Whats-App-Image-2025-04-22-at-20-43-19-ceb1c6ac.jpg",
+      "date": "5 Oct - 3:21 PM",
+      "likes": 20,
+      "comments": 4,
+      "likedBy": [
+        3,
+        4,
+        2
+      ],
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "content": "Every day is a new chance to find happiness♥",
+      "img": "https://i.ibb.co/LKspR8D/cover.jpg",
+      "date": "5 Oct - 5:08 PM",
+      "likes": 1,
+      "comments": 0,
+      "likedBy": [
+        1
+      ],
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "content": "Even the impossible becomes possible when you believe in yourself.",
+      "img": null,
+      "date": "5 Oct - 5:09 PM",
+      "likes": 1,
+      "comments": 0,
+      "likedBy": [
+        1
+      ],
+      "id": 11
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "type": "like",
+      "fromUserId": 3,
+      "toUserId": 1,
+      "postId": 1,
+      "date": "10 Sep - 11:15 am",
+      "isRead": false
+    },
+    {
+      "id": 2,
+      "type": "like",
+      "fromUserId": 4,
+      "toUserId": 1,
+      "postId": 1,
+      "date": "10 Sep - 3:00 pm",
+      "isRead": false
+    },
+    {
+      "id": 3,
+      "type": "like",
+      "fromUserId": 1,
+      "toUserId": 2,
+      "postId": 5,
+      "date": "10 Sep - 6:20 pm",
+      "isRead": false
+    },
+    {
+      "id": 4,
+      "type": "comment",
+      "fromUserId": 5,
+      "toUserId": 1,
+      "postId": 1,
+      "date": "13 Sep - 2:00 pm",
+      "isRead": false
+    },
+    {
+      "id": 5,
+      "type": "comment",
+      "fromUserId": 3,
+      "toUserId": 2,
+      "postId": 5,
+      "date": "13 Sep - 2:10 pm",
+      "isRead": false
+    },
+    {
+      "id": 6,
+      "type": "comment",
+      "fromUserId": 3,
+      "toUserId": 1,
+      "postId": 2,
+      "date": "1 oct - 5:10 pm",
+      "isRead": false
+    },
+    {
+      "id": 5,
+      "type": "comment",
+      "fromUserId": 2,
+      "toUserId": 1,
+      "postId": 4,
+      "date": "2 Sep - 2:10 pm",
+      "isRead": false
+    }
+  ]
+}
