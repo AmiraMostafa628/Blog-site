@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(135deg, #6a5acd, #00bfff);
+
+  min-height: 100vh;
+}
